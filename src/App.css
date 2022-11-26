@@ -10,13 +10,12 @@ button{
   border:3px solid grey;
   font-size: 2rem;
   border-radius: 20px;
-  text-decoration: underline wavy black 1px;
-  margin-top: 20%;
+  margin-top: 25%;
 }
 
 button:hover{
   cursor: pointer;
-  background:rgba(218, 142, 142,30%);
+  background:rgba(255, 255, 255, 0.3);
   transition: 1000ms;
   transition-timing-function: ease-in-out;
 }

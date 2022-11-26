@@ -2,13 +2,10 @@
 import './App.css';
 
 function App() {
-  function handleClick(){
-    console.log('hover clicked');
-  }
   return (
     <div className="App">
-      <button onClick={handleClick}>
-        Hover on me!
+      <button >
+        Hover over me!
       </button>
     </div>
   );
