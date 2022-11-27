@@ -1,16 +1,79 @@
+
 .App{
-  display: flex;
-  text-align: center;
-  justify-content: center;
+  width: 99vw;
+  height: 99vh;
+  border: 1px solid black;
+
 
 }
+
+.btn-position{
+  margin-left: 10%;
+  width: 80%;
+  margin-left: none;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.grp-name{
+  margin-top: 20px;
+  font-style: Cursive;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+
+.btn{
+  height: 60%;
+  margin-top: 1.1%;
+  width: 8%;
+  border: 3px solid grey;
+  border-radius: 10px;
+  background: rgba(255, 255, 255,0.2);
+}
+
+
+#button-container{
+  width: 25%;
+  height: 15%;
+  margin-left: 39.5%;
+  margin-top: 23%;
+}
+
+.hover-btn{
+  height: 100%;
+  width: 100%;
+}
+.copyright{
+  font-size: 1rem;
+  font-weight: 350;
+  margin-left: 40%;
+  margin-top: 10%;
+  width: 24%;
+  background-color: rgba(104, 23, 227, 0.1);
+  padding: 3px 3px 3px 7px;
+  border-radius: 7px;
+}
+
+.top{
+  
+}
+/*
 button{
   padding: 10px 7px 10px 10px;
-  background:rgba(218, 142, 142,0%) ;
+  background:#da8e8e00 ;
   border:3px solid grey;
-  font-size: 2rem;
   border-radius: 20px;
-  margin-top: 25%;
+}
+
+.top-btn{
+  height: 50px;
+  width:2000px;
+}
+.hover-btn{
+  font-size: 2rem;
 }
 
 button:hover{
@@ -19,3 +82,4 @@ button:hover{
   transition: 1000ms;
   transition-timing-function: ease-in-out;
 }
+*/

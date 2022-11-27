@@ -6,10 +6,50 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
     background-image: url(https://img.freepik.com/premium-vector/abstract-purple-wavy-modern-light-background_120409-1515.jpg?w=2000);
-    background-size: cover;
+    background-size: 106%;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+.position-left{
+  position: absolute;
+  left:0px;
+  background-color: salmon;
+  padding:0.6rem;
+  color: white;
+  width: 100%;
+  top: 50%;
+  cursor: pointer;
+  transform: translateX(-106%) translateY(-50%) ;
+  border-radius: 10px;
+
+}
+
+
+
+.position-left ::before{
+  content: "";
+  position: absolute;
+  left: 90%;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 15px solid;
+  border-color: #0000 #0000 #0000 salmon;
+}
+
+.position-down{
+  position: absolute;
+  left:0px;
+  background-color: salmon;
+  padding:0.6rem;
+  color: white;
+  width: 100%;
+  top: 50%;
+  cursor: pointer;
+  transform: translateX(-106%) translateY(-50%) ;
+  border-radius: 10px; 
 }
