@@ -1,18 +1,18 @@
 import React from 'react';
 
-class tool extends React.Component{
+class Tool extends React.Component{
     classn=()=>{
-        return `position=${this.props.position}`;
+        return `${this.props.position}`;
     }
 
     render(){
         return (
             <div className={`${this.classn()}`}>
-                thanks fot hovering on this position + {this.props.position}
+                thanks for hovering on the {this.props.position} position
             </div>
         )
     }
 }
 
 
-export default tool;
+export default Tool;

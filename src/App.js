@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Tool from './tool';
+import Tool from './Tool';
 
 
 class App extends React.Component{
@@ -31,7 +31,7 @@ class App extends React.Component{
       <div className="App">
         <div className='btn-position'>
           <div className='grp-name'>
-            here select the position of the hovering!! ==
+            here select the position of the hovering!!
           </div>
           <button
           className= {this.state.position=== 'top' ? "btn active" :"btn" }
@@ -68,18 +68,21 @@ class App extends React.Component{
           onMouseOver={this.handleMouseEnter}
           onMouseOut={this.handleMouseLeave}
           >
-            {this.state.hovering && <Tool position={this.state.position}/>}
+
             Hover Over Me!!
           </button>
+          {this.state.hovering && <Tool position={this.state.position}/>}
         </div>
         {/* <button >
           Hover over me!
         </button> */}
         <div>
+        
           <h5 className='copyright'>
-            Copyright 2022-2023 Mathur_Ji All Rights Reserved!!
+            Copyright 2022-2023 Mathur_Ji. All Rights Reserved!!
           </h5>
         </div>
+
       </div>
     );
   }

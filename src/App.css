@@ -2,7 +2,7 @@
 .App{
   width: 99vw;
   height: 99vh;
-  border: 1px solid black;
+
 
 
 }
@@ -35,8 +35,12 @@
 }
 
 
+.btn:visited {
+  color: green;
+}
+
 #button-container{
-  width: 25%;
+  width: 23%;
   height: 15%;
   margin-left: 39.5%;
   margin-top: 23%;
@@ -45,7 +49,13 @@
 .hover-btn{
   height: 100%;
   width: 100%;
+  font-size: 2.5rem;
+
 }
+
+
+
+
 .copyright{
   font-size: 1rem;
   font-weight: 350;
@@ -58,8 +68,57 @@
 }
 
 .top{
+  height: 30%;
+  width: 50%;
+  margin-top: -50%;
+  margin-left: 20%;
+  padding: 6px 10px 15px 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 1rem;
+  background-color: rgba(104, 23, 227, 0.1);
   
 }
+
+.right{
+    height: 30%;
+    width: 50%;
+    margin-top:-22%;
+    margin-left: 105%;
+    padding: 6px 10px 15px 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 1rem;
+    background-color: rgba(104, 23, 227, 0.1);
+}
+
+.down{
+  height: 30%;
+  width: 50%;
+  margin-top: 5%;
+  margin-left: 20%;
+  padding: 6px 10px 15px 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 1rem;
+  background-color: rgba(104, 23, 227, 0.1);
+}
+
+.left{
+  height: 30%;
+  width: 50%;
+  margin-top:-22%;
+  margin-left: -60%;
+  padding: 6px 10px 15px 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 1rem;
+  background-color: rgba(104, 23, 227, 0.1);
+}
+.active{
+  background-color:rgba(104, 23, 227, 0.3) ;
+}
+
 /*
 button{
   padding: 10px 7px 10px 10px;
