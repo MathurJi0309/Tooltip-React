@@ -1,4 +1,4 @@
-
+/*.................................................................here we give the dimension to the app..........................................*/
 .App{
   width: 99vw;
   height: 99vh;
@@ -6,6 +6,8 @@
 
 
 }
+
+/*...........................................................Navbar position button.............................................*/
 
 .btn-position{
   margin-left: 10%;
@@ -17,6 +19,8 @@
   justify-content: space-between;
 }
 
+
+
 .grp-name{
   margin-top: 20px;
   font-style: Cursive;
@@ -24,6 +28,7 @@
   font-size: 20px;
 }
 
+/*.......................................................css of the all avilable button..................................................*/
 
 .btn{
   height: 60%;
@@ -35,9 +40,7 @@
 }
 
 
-.btn:visited {
-  color: green;
-}
+/*...................................................css of the hover button container.....................................................*/
 
 #button-container{
   width: 23%;
@@ -46,6 +49,9 @@
   margin-top: 23%;
 }
 
+
+/*................................................special feature added in the hover button..............................................*/
+
 .hover-btn{
   height: 100%;
   width: 100%;
@@ -53,7 +59,7 @@
 
 }
 
-
+/*...............................................................copyright content........................................................*/
 
 
 .copyright{
@@ -66,6 +72,9 @@
   padding: 3px 3px 3px 7px;
   border-radius: 7px;
 }
+
+
+/*................................................................css for the top position hover........................................*/
 
 .top{
   height: 30%;
@@ -80,6 +89,10 @@
   
 }
 
+
+/*................................................................css for the right position hover........................................*/
+
+
 .right{
     height: 30%;
     width: 50%;
@@ -92,6 +105,9 @@
     background-color: rgba(104, 23, 227, 0.1);
 }
 
+
+/*................................................................css for the down position hover........................................*/
+
 .down{
   height: 30%;
   width: 50%;
@@ -103,6 +119,9 @@
   font-size: 1rem;
   background-color: rgba(104, 23, 227, 0.1);
 }
+
+
+/*................................................................csss for the left position hover........................................*/
 
 .left{
   height: 30%;
@@ -118,27 +137,3 @@
 .active{
   background-color:rgba(104, 23, 227, 0.3) ;
 }
-
-/*
-button{
-  padding: 10px 7px 10px 10px;
-  background:#da8e8e00 ;
-  border:3px solid grey;
-  border-radius: 20px;
-}
-
-.top-btn{
-  height: 50px;
-  width:2000px;
-}
-.hover-btn{
-  font-size: 2rem;
-}
-
-button:hover{
-  cursor: pointer;
-  background:rgba(255, 255, 255, 0.3);
-  transition: 1000ms;
-  transition-timing-function: ease-in-out;
-}
-*/

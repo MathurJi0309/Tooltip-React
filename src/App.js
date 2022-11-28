@@ -1,9 +1,11 @@
 import React from 'react';
 import './App.css';
-import Tool from './Tool';
+import Tooltip from './Tooltip';
 
 
 class App extends React.Component{
+
+//.........................................................................we have to create the state............................................. 
   constructor(){
     super();
     this.state={
@@ -11,27 +13,48 @@ class App extends React.Component{
       hovering:false,
     };
   }
+
+  //..........................................................handleClick function which handle the position............................................................
   handleClick=(pos)=>{
     this.setState({
       position:pos,
     })
   };
+
+
+  //..........................................................handleMouseEnter function which handle the hovering condintion............................................................
+
+
   handleMouseEnter=()=>{
     this.setState({
       hovering:true,
     });
   };
+
+
+
+    //..........................................................handleMouseEnter function which handle the hovering condintion............................................................
+
+
   handleMouseLeave=()=>{
     this.setState({
       hovering:false
     })
   }
+
+
+  //..........................................................render part of the class based component............................................................
+
   render(){
     return (
+  //..........................................................app return main jsx............................................................
+
       <div className="App">
+{  //..........................................................position of the all position button............................................................
+}
         <div className='btn-position'>
           <div className='grp-name'>
-            here select the position of the hovering!!
+            select the position of the hovering!!
           </div>
           <button
           className= {this.state.position=== 'top' ? "btn active" :"btn" }
@@ -62,7 +85,9 @@ class App extends React.Component{
             down
           </button>
         </div>
-        <div id="button-container">
+{        //..........................................................hover button ............................................................
+
+}        <div id="button-container">
           <button
           className='btn hover-btn'
           onMouseOver={this.handleMouseEnter}
@@ -71,11 +96,9 @@ class App extends React.Component{
 
             Hover Over Me!!
           </button>
-          {this.state.hovering && <Tool position={this.state.position}/>}
+          {this.state.hovering && <Tooltip position={this.state.position}/>}
         </div>
-        {/* <button >
-          Hover over me!
-        </button> */}
+        {/*........................................................... copy right..............................................................*/}
         <div>
         
           <h5 className='copyright'>
