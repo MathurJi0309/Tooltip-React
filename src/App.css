@@ -63,6 +63,7 @@
 
 
 .copyright{
+  position: fixed;
   font-size: 1rem;
   font-weight: 350;
   margin-left: 40%;
